@@ -1,0 +1,201 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f3e7;
+}
+
+.logo {
+    width: 350px;
+    height: 200px;
+    text-align: left;
+    align-items: center;
+}
+
+header {
+    background-color: #f5e6c2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.direcionar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #3C2415;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.HeroBanner {
+    background-image: url(../imagem/Gemini_Generated_Image_zg39ghzg39ghzg39.jpg);
+    background-repeat: no-repeat;
+    height: 112vh;
+    background-position: top;
+    background-size: 100vw;
+}
+
+.Sobre {
+    padding: 20px 50px 30px 50px;
+}
+
+.Sobre p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    background-color: #DBCAB1;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px 40px;
+    border: 1px solid #C6A67D;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 1px 2px 3px black;
+}
+
+.lista {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.lista li {
+    margin-bottom: 15px;
+}
+
+.fotoImg {
+    width: 95%;
+    border-radius: 8px;
+}
+
+.THP {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px 30px 40px;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.TH {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #3C2415;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dir {
+    color: white;
+}
+
+.esq p {
+    color: #F7F3E9;
+    text-align: center;
+    padding: 20px;
+}
+
+.primeiro {
+    background-color: rgb(173, 173, 173);
+    width: 300px;
+    padding-bottom: 13px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 13px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.cards .primeiro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    color: #3C2415;
+}
+
+.preco {
+    color: #e4c8a4;
+}
+
+.butcard {
+    color: white;
+    background-color: #3C2415;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 40px;
+    width: 190px;
+}
+
+.formu {
+    background-color: #3C2415;
+    color: white;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    padding-bottom: 20px;
+}
+
+.email,
+.avaliacao {
+    padding-bottom: 20px;
+}
+
+.buto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dir{
+    padding-top: 2px;
+}
+
+.dir h3, p{
+    padding-bottom: 7px;
+}
+
+.esq{
+    padding-top: 13px;
+}
